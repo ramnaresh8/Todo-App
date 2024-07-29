@@ -6,10 +6,7 @@ import TodoForm from './components/TodoForm'
 
 
 function App() {
-  const [ todos, setTodos ] = useState([
-    { id: 1, title: 'Buy milk', completed: false},
-    { id: 2, title: 'Buy groceries', completed: true},
-  ])
+  const [ todos, setTodos ] = useState<{id: number; title: string; completed: boolean }[]>([])
 
   const addTodo = (todo: { id: number; title: string; completed: boolean}) => 
     setTodos([...todos, todo])
