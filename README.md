@@ -13,7 +13,7 @@ A simple and intuitive Todo list app built with React and Material-UI.
 
 ## Getting Started
 
-1. Clone the repository: `git clone [https://github.com/ramnaresh8/Todo-App.git]`
+1. Clone the repository: `git clone https://github.com/ramnaresh8/Todo-App.git`
 2. Install dependencies: `npm install`
 3. Start the app: `npm run dev`
 4. The App will start on: `http://localhost:5173/`
